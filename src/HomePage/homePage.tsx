@@ -1,5 +1,7 @@
 import React from 'react';
 import './homePage.css';
+import pcHomePageImage from './resources/pc-home-page.jpg';
+import CustomerBuildsSlider from './carousel/slideshow';
 
 interface HomePageProps {
   className?: string;
@@ -8,43 +10,43 @@ interface HomePageProps {
 const HomePage: React.FC<HomePageProps> = ({ className = '' }) => {
   return (
     <div className={`home-page ${className}`}>
-      <header className="home-header">
-        <h1>Welcome to PC Building Guide</h1>
-        <p className="tagline">Build your dream PC with confidence</p>
-      </header>
-
-      <section className="hero-section">
-        <div className="hero-content">
-          <h2>Start Your Build Journey</h2>
+      <div className="home-page-container">
+        <div className="home-page-left">
+          <img 
+            src={pcHomePageImage} 
+            alt="PC Building" 
+            className="home-page-image"
+          />
+        </div>
+        
+        <div className="home-page-right">
+          <h1>Welcome to PC Building Guide</h1>
           <p>
-            Whether you're a first-time builder or an experienced enthusiast,
-            we'll guide you through every step of building your perfect PC.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod 
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
-          <button className="cta-button">Get Started</button>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+            in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
+            veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          </p>
+          <p>
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
+            adipisci velit.
+          </p>
         </div>
-      </section>
+      </div>
 
-      <section className="features-section">
-        <h2>Why Build Your Own PC?</h2>
-        <div className="features-grid">
-          <div className="feature-card">
-            <h3>💰 Better Value</h3>
-            <p>Get more performance for your budget by choosing your own components</p>
-          </div>
-          <div className="feature-card">
-            <h3>🎮 Customization</h3>
-            <p>Build exactly what you need - gaming, work, or creative projects</p>
-          </div>
-          <div className="feature-card">
-            <h3>🔧 Easy Upgrades</h3>
-            <p>Upgrade individual components as technology advances</p>
-          </div>
-          <div className="feature-card">
-            <h3>📚 Learn & Grow</h3>
-            <p>Gain valuable technical knowledge and troubleshooting skills</p>
-          </div>
-        </div>
-      </section>
+      {/* Customer Builds Slideshow Section */}
+      <CustomerBuildsSlider />
     </div>
   );
 };
