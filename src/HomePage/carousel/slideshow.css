@@ -134,7 +134,7 @@
   top: 50%;
   transform: translateY(-50%);
   height: 459px;
-  width: 48px;
+  width: 70px;
   background-color: rgba(17, 25, 39, 0.8);
   color: white;
   border: none;
@@ -160,8 +160,8 @@
 }
 
 .chevron-icon {
-  width: 24px;
-  height: 24px;
+  width: 40px;
+  height: 40px;
   color: #9ca3af;
   transition: color 0.3s ease;
 }
@@ -226,12 +226,12 @@
   }
 
   .nav-button {
-    width: 40px;
+    width: 55px;
   }
 
   .chevron-icon {
-    width: 20px;
-    height: 20px;
+    width: 32px;
+    height: 32px;
   }
 
   .slide-content {
@@ -290,12 +290,12 @@
   }
 
   .nav-button {
-    width: 35px;
+    width: 48px;
   }
 
   .chevron-icon {
-    width: 18px;
-    height: 18px;
+    width: 28px;
+    height: 28px;
   }
 
   .setup-image-container {

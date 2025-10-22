@@ -90,6 +90,13 @@ const PricesPage: React.FC = () => {
             <p>Select from our recommended PC builds tailored to your needs</p>
         </div>
 
+        <div className="disclaimer">
+            <p>
+              <strong>Note:</strong> The PCs above are just models for the user to have an idea. 
+              For other parts, feel free to contact me.
+            </p>
+          </div>
+
         <div className="prices-grid">
           {pcTiers.map((pc) => (
             <div key={pc.id} className="pc-card">
@@ -152,12 +159,6 @@ const PricesPage: React.FC = () => {
               <h3>High-End</h3>
               <p className="installation-price">$120+</p>
             </div>
-          </div>
-          <div className="disclaimer">
-            <p>
-              <strong>Note:</strong> The PCs above are just models for the user to have an idea. 
-              For other parts, feel free to contact me.
-            </p>
           </div>
         </div>
       </div>
