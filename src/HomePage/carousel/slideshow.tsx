@@ -1,6 +1,11 @@
 import { useState, useEffect } from "react";
 import './slideshow.css';
-import dummySetupImage from '../../resources/dummy-setup.jpg';
+
+import pcIsmaelImage from '../../resources/pc-ismael.jpeg';
+import pc1Image from '../../resources/pc1.jpeg';
+import pc2Allan from '../../resources/allan-pc.jpg';
+import pcJanuel from '../../resources/januel-pc.jpg';
+
 import userPfpLogo from '../../resources/user-pfp-logo.jpg';
 
 // Interface for customer build data
@@ -17,27 +22,35 @@ interface CustomerBuild {
 const customerBuilds: CustomerBuild[] = [
   {
     id: 1,
-    setupImage: dummySetupImage,
+    setupImage: pc2Allan,
     userImage: userPfpLogo,
-    userName: "John Doe",
+    userName: "Allan",
     rating: 5,
-    review: "Amazing experience building my first PC! The guide was clear and easy to follow. My new gaming rig runs perfectly and I couldn't be happier with the results."
+    review: "Gracias por la ayuda con el build! Todo funciona al pelo."
   },
   {
     id: 2,
-    setupImage: dummySetupImage,
+    setupImage: pcIsmaelImage,
     userImage: userPfpLogo,
-    userName: "Sarah Johnson",
+    userName: "Misael",
     rating: 5,
-    review: "This website made PC building so simple! I built a workstation for my design work and it's incredibly fast. Highly recommend to anyone looking to build their own PC."
+    review: "DIABLO QUE DURA SE VE CON TO' PUESTO! Mil gracias socio."
   },
   {
     id: 3,
-    setupImage: dummySetupImage,
+    setupImage: pc1Image,
     userImage: userPfpLogo,
-    userName: "Mike Chen",
-    rating: 4,
-    review: "Great resource for PC builders. The step-by-step instructions were helpful and saved me a lot of time. My new setup handles everything I throw at it!"
+    userName: "Ismael",
+    rating: 5,
+    review: "Ya tengo la PC bro. Todo el setup esta super bien armado y funcionando de lujo. Gracias por la ayuda!"
+  },
+  {
+    id: 4,
+    setupImage: pcJanuel,
+    userImage: userPfpLogo,
+    userName: "Januel",
+    rating: 5,
+    review: "Como el creador de esta compania, me he dedicado a asegurar que cada cliente reciba la mejor experiencia posible en la construccion de su PC. Y con esta motivacion he logrado crear mi propio setup, motivando a otros a seguir sus sueños de construir la PC perfecta."
   }
 ];
 

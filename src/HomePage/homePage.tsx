@@ -25,27 +25,13 @@ const HomePage: React.FC<HomePageProps> = ({ className = '' }) => {
         </div>
         
         <div className="home-page-right">
-          <h1>Welcome to PC Building Guide</h1>
+          <h1>Welcome to NovaLine</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-            in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
-            veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-          </p>
-          <p>
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
-            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
-            adipisci velit.
+            NovaLine is a company created by Januel E. Torres Marquez focused on PC Building to help people with their dream builds. 
+            This mission is at the core of everything we do. We don't just offer guides; we provide solutions that translate directly into real-world performance. 
+            Over the years, our approach has helped multiple enthusiasts, professionals, and students save money and unlock the true potential of their computing power. 
+            For gamers, our tailored builds mean higher frame rates and smoother gameplay on the most demanding titles. Our success is measured by the tangible improvements 
+            our users experience; from a student who could finally run demanding engineering software to a freelancer who could take on larger, more complex projects.
           </p>
         </div>
       </div>
