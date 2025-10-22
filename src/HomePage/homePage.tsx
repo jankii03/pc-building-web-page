@@ -2,6 +2,7 @@ import React from 'react';
 import './homePage.css';
 import pcHomePageImage from './resources/pc-home-page.jpg';
 import CustomerBuildsSlider from './carousel/slideshow';
+import Footer from './Footer';
 
 interface HomePageProps {
   className?: string;
@@ -47,6 +48,9 @@ const HomePage: React.FC<HomePageProps> = ({ className = '' }) => {
 
       {/* Customer Builds Slideshow Section */}
       <CustomerBuildsSlider />
+
+      {/* Footer Section */}
+      <Footer />
     </div>
   );
 };
