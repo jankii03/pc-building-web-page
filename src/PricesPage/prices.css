@@ -151,7 +151,85 @@
   transform: translateY(0);
 }
 
+/* Installation Section */
+.installation-section {
+  margin-top: 4rem;
+  padding: 3rem 2rem;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.installation-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.installation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.installation-card {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.installation-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.installation-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.installation-price {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #3498db;
+  margin: 0;
+}
+
+.disclaimer {
+  background-color: #f8f9fa;
+  border-left: 4px solid #3498db;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.disclaimer p {
+  margin: 0;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.disclaimer strong {
+  color: #2c3e50;
+  font-weight: 700;
+}
+
 /* Responsive design */
+@media (max-width: 1024px) {
+  .installation-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 1200px) {
   .prices-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -190,6 +268,36 @@
   }
 
   .spec-value {
+    font-size: 0.9rem;
+  }
+
+  .installation-section {
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .installation-title {
+    font-size: 1.8rem;
+  }
+
+  .installation-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .installation-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .installation-price {
+    font-size: 2rem;
+  }
+
+  .disclaimer {
+    padding: 1rem;
+  }
+
+  .disclaimer p {
     font-size: 0.9rem;
   }
 }

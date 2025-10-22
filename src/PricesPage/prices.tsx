@@ -135,6 +135,31 @@ const PricesPage: React.FC = () => {
             </div>
           ))}
         </div>
+
+        {/* Installation Prices Section */}
+        <div className="installation-section">
+          <h2 className="installation-title">Installation Services</h2>
+          <div className="installation-grid">
+            <div className="installation-card">
+              <h3>Entry Level</h3>
+              <p className="installation-price">$80</p>
+            </div>
+            <div className="installation-card">
+              <h3>Mid-Range</h3>
+              <p className="installation-price">$100</p>
+            </div>
+            <div className="installation-card">
+              <h3>High-End</h3>
+              <p className="installation-price">$120+</p>
+            </div>
+          </div>
+          <div className="disclaimer">
+            <p>
+              <strong>Note:</strong> The PCs above are just models for the user to have an idea. 
+              For other parts, feel free to contact me.
+            </p>
+          </div>
+        </div>
       </div>
       </div>
       <Footer />
