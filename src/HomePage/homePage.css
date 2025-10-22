@@ -7,6 +7,7 @@
   margin: 0;
   background-color: #7f848a;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .home-page-container {
@@ -16,6 +17,7 @@
   margin-top: 82px;
   background: white;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .home-page-left {
@@ -91,14 +93,17 @@
 
   .home-page-container {
     margin-top: 74px;
+    width: 100%;
   }
 
   .home-page-left {
     min-height: 300px;
+    width: 100%;
   }
 
   .home-page-right {
     padding: 1.5rem;
+    width: 100%;
   }
 
   .home-page-right h1 {
@@ -115,5 +120,23 @@
 @media (max-width: 480px) {
   .home-page-container {
     margin-top: 67px;
+    width: 100%;
+  }
+
+  .home-page-left {
+    min-height: 250px;
+  }
+
+  .home-page-right {
+    padding: 1rem;
+  }
+
+  .home-page-right h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .home-page-right p {
+    font-size: 0.95rem;
   }
 }

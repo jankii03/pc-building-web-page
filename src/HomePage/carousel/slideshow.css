@@ -16,6 +16,9 @@
   margin-bottom: 3rem;
   font-weight: 700;
   text-align: center;
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 .slider-wrapper {
@@ -251,5 +254,51 @@
   .customer-builds-title {
     font-size: 1.75rem;
     margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .customer-builds-section {
+    padding: 2rem 0.5rem;
+  }
+
+  .slide-container {
+    margin: 0 1.5rem;
+  }
+
+  .slide-content {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .customer-builds-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .user-avatar {
+    width: 45px;
+    height: 45px;
+  }
+
+  .user-name {
+    font-size: 1.1rem;
+  }
+
+  .review-text {
+    font-size: 0.9rem;
+  }
+
+  .nav-button {
+    width: 35px;
+  }
+
+  .chevron-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .setup-image-container {
+    min-height: 250px;
   }
 }

@@ -4,6 +4,7 @@
   color: #ecf0f1;
   padding: 3rem 2rem 1rem;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .footer-content {
@@ -150,11 +151,32 @@
 }
 
 @media (max-width: 480px) {
+  .footer {
+    padding: 2rem 1rem 1rem;
+  }
+
+  .footer-content {
+    gap: 2rem;
+  }
+
+  .footer-section h3 {
+    font-size: 1.2rem;
+  }
+
+  .footer-section h4 {
+    font-size: 1rem;
+  }
+
   .copyright {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
   .footer-links {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+  }
+
+  .footer-section {
+    max-width: 100%;
+    padding: 0 0.5rem;
   }
 }
