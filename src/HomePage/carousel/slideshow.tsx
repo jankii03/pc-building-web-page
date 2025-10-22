@@ -5,6 +5,10 @@ import pcIsmaelImage from '../../resources/pc-ismael.jpeg';
 import pc1Image from '../../resources/pc1.jpeg';
 import pc2Allan from '../../resources/allan-pc.jpg';
 import pcJanuel from '../../resources/januel-pc.jpg';
+import pcAdrian from '../../resources/pcAdrian.jpg';
+import pcDavid from '../../resources/davidPC.png';
+import pcAlondra from '../../resources/pcAlondra.jpg';
+
 
 import userPfpLogo from '../../resources/user-pfp-logo.jpg';
 
@@ -51,6 +55,30 @@ const customerBuilds: CustomerBuild[] = [
     userName: "Januel",
     rating: 5,
     review: "Como el creador de esta compania, me he dedicado a asegurar que cada cliente reciba la mejor experiencia posible en la construccion de su PC. Y con esta motivacion he logrado crear mi propio setup, motivando a otros a seguir sus sueños de construir la PC perfecta."
+  },
+  {
+    id: 5,
+    setupImage: pcAdrian,
+    userImage: userPfpLogo,
+    userName: "Adrian",
+    rating: 5,
+    review: "Cambio de motherboard exitoso!",
+  },
+  {
+    id: 6,
+    setupImage: pcDavid,
+    userImage: userPfpLogo,
+    userName: "David",
+    rating: 5,
+    review: "Servicio de mantenimiento y reemplazo de pasta termal."
+  },
+  {
+    id: 7,
+    setupImage: pcAlondra,
+    userImage: userPfpLogo,
+    userName: "Alondra",
+    rating: 5,
+    review: "Gracias por el servicio quedo excelente!"
   }
 ];
 
