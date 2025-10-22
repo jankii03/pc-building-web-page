@@ -1,8 +1,9 @@
 import React from 'react';
 import './homePage.css';
-import pcHomePageImage from './resources/pc-home-page.jpg';
+import pcHomePageImage from '../resources/official-logo.png';
 import CustomerBuildsSlider from './carousel/slideshow';
-import Footer from './Footer';
+import Footer from '../Footer';
+import NavBar from '../NavigationBar';
 
 interface HomePageProps {
   className?: string;
@@ -11,7 +12,10 @@ interface HomePageProps {
 const HomePage: React.FC<HomePageProps> = ({ className = '' }) => {
   return (
     <div className={`home-page ${className}`}>
-      <div className="home-page-container">
+      {/* Navigation Bar */}
+      <NavBar />
+
+      <div className="home-page-container" id="home">
         <div className="home-page-left">
           <img 
             src={pcHomePageImage} 
@@ -47,10 +51,14 @@ const HomePage: React.FC<HomePageProps> = ({ className = '' }) => {
       </div>
 
       {/* Customer Builds Slideshow Section */}
-      <CustomerBuildsSlider />
+      <div id="prices">
+        <CustomerBuildsSlider />
+      </div>
 
       {/* Footer Section */}
-      <Footer />
+      <div id="contact">
+        <Footer />
+      </div>
     </div>
   );
 };
