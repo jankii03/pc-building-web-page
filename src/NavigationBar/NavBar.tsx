@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import './NavBar.css';
 import logo from '../resources/navbar-logo.png';
 
@@ -52,20 +53,20 @@ const NavBar: React.FC = () => {
     <nav className={`navbar ${isVisible ? 'visible' : 'hidden'}`}>
       <div className="navbar-container">
         <div className="navbar-logo">
-          <img src={logo} alt="PC Building Guide Logo" className="logo-image" />
-          <span className="logo-text">PC Building Guide</span>
+          <img src={logo} alt="NovaLine PC's Logo" className="logo-image" />
+          <span className="logo-text">NovaLine PC's</span>
         </div>
 
         <ul className="navbar-menu">
           <li className="navbar-item">
-            <a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
+            <Link to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="navbar-item">
-            <a href="#prices" onClick={(e) => { e.preventDefault(); scrollToSection('prices'); }}>
+            <Link to="/prices">
               Prices
-            </a>
+            </Link>
           </li>
           <li className="navbar-item">
             <a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>

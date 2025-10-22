@@ -8,8 +8,8 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h3>PC Building Guide</h3>
-          <p>Your trusted resource for building the perfect PC</p>
+          <h3>NovaLine</h3>
+          <p>Created by Engineers. Perfected for Gamers.</p>
         </div>
 
         {/* <div className="footer-section">
