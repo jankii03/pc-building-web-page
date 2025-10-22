@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import './slideshow.css';
-import dummySetupImage from '../resources/dummy-setup.jpg';
-import userPfpLogo from '../resources/user-pfp-logo.jpg';
+import dummySetupImage from '../../resources/dummy-setup.jpg';
+import userPfpLogo from '../../resources/user-pfp-logo.jpg';
 
 // Interface for customer build data
 interface CustomerBuild {
