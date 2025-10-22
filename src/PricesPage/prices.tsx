@@ -92,7 +92,7 @@ const PricesPage: React.FC = () => {
 
         <div className="disclaimer">
             <p>
-              <strong>Note:</strong> The PCs above are just models for the user to have an idea. 
+              <strong>Note:</strong> The PCs below are just models for the user to have an idea. 
               For other parts, feel free to contact me.
             </p>
           </div>
