@@ -104,12 +104,12 @@ const ContactMePage: React.FC = () => {
           </div>
 
           {/* Additional Info Section */}
-          <div className="contact-info-box">
+          {/* <div className="contact-info-box">
             <h2>Business Hours</h2>
             <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
             <p>Saturday: 10:00 AM - 4:00 PM</p>
             <p>Sunday: Closed</p>
-          </div>
+          </div> */}
         </div>
       </div>
       <Footer />
