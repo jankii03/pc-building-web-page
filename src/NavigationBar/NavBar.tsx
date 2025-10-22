@@ -42,13 +42,6 @@ const NavBar: React.FC = () => {
     };
   }, []);
 
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <nav className={`navbar ${isVisible ? 'visible' : 'hidden'}`}>
       <div className="navbar-container">
@@ -69,14 +62,14 @@ const NavBar: React.FC = () => {
             </Link>
           </li>
           <li className="navbar-item">
-            <a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>
+            <Link to="/about-me">
               About Me
-            </a>
+            </Link>
           </li>
           <li className="navbar-item">
-            <a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>
+            <Link to="/contact">
               Contact Me
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
