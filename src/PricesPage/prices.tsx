@@ -26,7 +26,7 @@ const pcTiers: PCTier[] = [
   {
     id: 1,
     tier: 'Entry Level',
-    price: '$800-$1000',
+    price: '$800-$1,500',
     priceDescription: 'Perfect for casual gaming and everyday tasks',
     image: dummyLogo,
     link: 'https://pcpartpicker.com/list/nGGp74',
@@ -44,7 +44,7 @@ const pcTiers: PCTier[] = [
   {
     id: 2,
     tier: 'Mid-Range',
-    price: '$1,500-$2,000',
+    price: '$1,600-$2,900',
     priceDescription: 'Great for 1440p gaming and content creation',
     image: dummyLogo,
     link: 'https://pcpartpicker.com/list/g78p74',
@@ -62,7 +62,7 @@ const pcTiers: PCTier[] = [
   {
     id: 3,
     tier: 'High-End',
-    price: '$2,500-$3,500+',
+    price: '$3,000+',
     priceDescription: 'Ultimate performance for 4K gaming and professional work',
     image: dummyLogo,
     link: 'https://pcpartpicker.com/list/LMC7t3',
@@ -92,8 +92,8 @@ const PricesPage: React.FC = () => {
 
         <div className="disclaimer">
             <p>
-              <strong>Note:</strong> The PCs below are just models for the user to have an idea. 
-              For other parts, feel free to contact me.
+              <strong>Note:</strong> We offer a range of recommended builds tailored to various budgets. However, these are not the only systems we can create. 
+              For custom parts and personalized configurations, please feel free to contact us.
             </p>
           </div>
 
@@ -146,20 +146,10 @@ const PricesPage: React.FC = () => {
         {/* Installation Prices Section */}
         <div className="installation-section">
           <h2 className="installation-title">Installation Services</h2>
-          <div className="installation-grid">
-            <div className="installation-card">
-              <h3>Entry Level</h3>
-              <p className="installation-price">$80</p>
-            </div>
-            <div className="installation-card">
-              <h3>Mid-Range</h3>
-              <p className="installation-price">$100</p>
-            </div>
-            <div className="installation-card">
-              <h3>High-End</h3>
-              <p className="installation-price">$120+</p>
-            </div>
-          </div>
+          <p className="installation-description">
+            Installation service prices vary depending on the type of computer you want to build. 
+            For more information and personalized pricing, please contact me through any of my platforms.
+          </p>
         </div>
       </div>
       </div>

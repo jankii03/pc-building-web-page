@@ -168,6 +168,15 @@
   color: #2c3e50;
 }
 
+.installation-description {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #555;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .installation-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

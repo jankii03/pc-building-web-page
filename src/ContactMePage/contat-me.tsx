@@ -45,12 +45,12 @@ const ContactMePage: React.FC = () => {
               </div>
               <h3>Instagram</h3>
               <a 
-                href="https://www.instagram.com/jankii03?igsh=aDQ3bmx1YzVtcmw3&utm_source=qr" 
+                href="https://www.instagram.com/novalinepcbuilds?igsh=c3F4a2prZGR6dTF4&utm_source=qr" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="contact-link"
               >
-                @jankii03
+                @novalinepcbuilds
               </a>
             </div>
 
